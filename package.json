@@ -1,9 +1,9 @@
 {
-"name": "VAJIRA-MD",    
+"name": "FAISAL-MD",    
 "version": "10.8.2",
 "scripts": {
-"start": "pm2 start index.js --deep-monitoring --attach --name VAJIRA-MD",
-"stop": "pm2 stop VAJIRA-MD",
+"start": "pm2 start index.js --deep-monitoring --attach --name FAISAL-MD",
+"stop": "pm2 stop FAISAL-MD",
 "restart": "git pull && npm stop && npm start",
 "stash": "git stash && git stash drop"
 },
